@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body,
+:root,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #020617;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background-color: #1e293b;
+  color: #64748b;
+  padding: 24px;
+  width: 300px;
+  border-radius: 18px;
+}
+
+.display {
+  background-color: #334155;
+  font-size: 32px;
+  font-family: "Kode Mono", monospace;
+  padding: 10px 25px;
+  border-radius: 10px;
+  text-align: end;
+  color: white;
+  box-shadow: inset 2px 4px black;
+}
+
+.buttons {
+  margin-top: 32px;
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+
+.buttons button {
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  box-shadow: 3px 3px #0f172a;
+}
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.operators button {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.equal-btn {
+  background-color: black;
+  color: #f59e0b;
+}
